@@ -1,0 +1,55 @@
+body{
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Spectral', serif;
+    margin: 0;
+}
+.header{
+    background-image: url(donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+    
+.header{
+    text-align: center;
+    color: peru;
+    padding: 250px 300px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color:rgb(219, 101, 80);
+    color: white;
+    font: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+.today-plan{
+    text-align: center;
+}
+.help-flood{
+    text-align: center;
+}  
+hr{
+    width: 70%;
+}
+.donation{
+    content: center;
+}
+
+#taka{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aid{
+
+    background-color: rgb(238, 232, 232);
+    padding: 30px;
+    border-radius: 15px;
+
+}
+    
+    
