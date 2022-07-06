@@ -9,13 +9,17 @@ body{
     background-image: url(donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 450px;
 }
     
 .header{
     text-align: center;
-    color: peru;
+    color:white;
     padding: 250px 300px;
+
+}
+.header h1{ 
+    font-size: 50px;
 }
 
 .link-button{
@@ -36,20 +40,81 @@ body{
 hr{
     width: 70%;
 }
-.donation{
-    content: center;
+#donation{
+    
+    
+    margin-left: 570px;
 }
 
 #taka{
     display: flex;
     justify-content: space-evenly;
 }
-.aid{
+.fund{
 
     background-color: rgb(238, 232, 232);
     padding: 30px;
     border-radius: 15px;
 
 }
+section{
+    display: flex;
+    justify-content: space-between;
+}
+#aid{
+    width: 300px;
+    height: 350px;
+    border-left: 15px;
+    border-right: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left:100px;
+    background-color: bisque;
+
+}
+
+#food{
+    width: 300px;
+    height: 350px;
+    border-left: 15px;
+    border-right: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left:15px;
+    background-color: pink
+}
+
+#shelter{
+    width: 300px;
+    height: 350px;
+    border-left: 15px;
+    border-right: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right:100px;
+    margin-left: 15px;
+    background-color:aliceblue
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    width: 700px;
+    padding: 20px 30px;
+    margin-left: 300px;
+    justify-content: space-between;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 125px;
+    text-align: center;
+    
+}
+
+   
     
     
